@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
+
 package com.co.udea.reto9;
 
 import java.util.List;
@@ -15,9 +12,9 @@ import java.util.stream.Collectors;
 public interface Varios {
 
     /*La interfaz contiene los métodos que se necesitan para el desarrollo del reto*/
-    public static List<Double> elevarCuadrado(List<Double> listaIn) {
+    public static List<Double> raizCuadrada(List<Double> listaIn) {
 
-        return listaIn.stream().map(x -> x * x).collect(Collectors.toList());
+        return listaIn.stream().map(x -> Math.sqrt(x)).collect(Collectors.toList());
 
     }
 

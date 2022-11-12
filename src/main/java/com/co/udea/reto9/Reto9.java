@@ -36,14 +36,14 @@ public class Reto9 {
 
         /*Programación Funcional*/
         List<Double> numeros = new ArrayList<>();
-        numeros.add(3.1);
-        numeros.add(2.5);
-        numeros.add(3.0);
-        numeros.add(5.0);
-        List<Double> numerosElevados = Varios.elevarCuadrado(numeros);
+        numeros.add(81.1);
+        numeros.add(32.5);
+        numeros.add(9.0);
+        numeros.add(25.0);
+        List<Double> numerosElevados = Varios.raizCuadrada(numeros);
         System.out.println("Lista Original");
         numeros.stream().forEach(num -> System.out.println(num));
-        System.out.println("Nueva lista con los números elevados al cuadrado");
+        System.out.println("Nueva lista con la raíz cuadrada de los números");
         numerosElevados.stream().forEach(num -> System.out.println(num));
 
         Set<String> conjunto = new HashSet<>();
